@@ -3,7 +3,7 @@
 
 > A personal portfolio website showcasing my latest development projects, technical skills, and professional journey.
 
-🔗 Link of my portfolio website: [vagish.dev](vagish.dev)
+🔗 Link to my portfolio website: [vagish.dev](https://vagish.dev/)
 
 ---
 
