@@ -19,4 +19,5 @@
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+Copyright © 2026 Vagish Kumar Raj. All rights reserved. 
+This project and its contents are for portfolio demonstration purposes only. Unauthorised copying or distribution of the code is strictly prohibited.
