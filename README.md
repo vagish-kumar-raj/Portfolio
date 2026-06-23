@@ -7,12 +7,11 @@
 
 ---
 
-## ✨ Features
-
-
----
-
 ## 🛠️ Tech Stack
-![HTML5](https://badges.aleen42.com/src/html5.svg)
+<img src="https://badges.aleen42.com/src/html5.svg" alt="HTML5">
 
 ---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
