@@ -38,3 +38,7 @@ body{
 li{
     color: #FFCC66;
 }
+
+a:hover {
+    color: rgb(255, 0, 0);
+  }
