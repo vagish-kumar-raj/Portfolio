@@ -1,9 +1,9 @@
 h1{
     color: #00ff00;
-    background-color: rgb(0, 72, 172);
+    text-decoration: underline #FFCC66;
 }
 p{
-    color: #FFCC66;
+    color: #ffffff;
 }
 
 h2{
@@ -36,9 +36,17 @@ body{
 }
 
 li{
-    color: #FFCC66;
+    color: #ffffff;
 }
 
 a:hover {
-    color: rgb(255, 0, 0);
+    color: red;
+  }
+
+  a{
+    color: #FFCC66;
+  }
+
+  a:visited {
+    color: #888888
   }
