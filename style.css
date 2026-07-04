@@ -1,6 +1,12 @@
 h1{
     color: #00ff00;
-    text-decoration: underline #FFCC66;
+    border-bottom: #FFCC66 solid 3px;
+    width:fit-content;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 p{
     color: #ffffff;
@@ -17,6 +23,8 @@ h2{
 
 body{
     background-color: #001E3D;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #MUJ{
@@ -42,10 +50,31 @@ a:hover {
     color: red;
   }
 
-  a{
+a{
     color: #FFCC66;
-  }
+}
 
-  a:visited {
+a:visited {
     color: #888888
-  }
+}
+
+#mylogo{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: #FFCC66 solid 3px;
+    border-radius: 80px;
+}
+#oci{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#mckinsey{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+#anthropic{
+    padding-left: 30px;
+}
