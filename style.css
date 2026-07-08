@@ -1,3 +1,23 @@
+body{
+    background-color: #001E3D;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#mylogo{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: #FFCC66 solid 3px;
+    border-radius: 80px;
+}
+
 h1{
     color: #00ff00;
     border-bottom: #FFCC66 solid 3px;
@@ -7,17 +27,8 @@ h1{
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 10px;
-}
+    font-weight: 700;
 
-h1, .accent-text {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 700; /* Bold cursive headings */
-  }
-
-p{
-    color: #ffffff;
 }
 
 h2{
@@ -31,43 +42,7 @@ h2{
     border-radius: 10px;
 }
 
-.h2{
-    border-bottom: 3px solid #0048ac; /* Thick orange line */
-    padding-bottom: 1px;
-}
-
-body{
-    background-color: #001E3D;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-}
-
-#connect{
-    display: block;
-    margin: 0 auto;
-    padding: 5%;
-    width: fit-content;
-    margin-top: 10px;
-}
-
-#certs{
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-hr{
-    border: 1px solid #FFCC66;
-
-}
-
-li{
+p{
     color: #ffffff;
 }
 
@@ -79,28 +54,36 @@ a{
     color: #FFCC66;
 }
 
-a:visited {
-    color: #888888
+#certs{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
-#mylogo{
+.cert{
+    width: 100%;
+    margin: 10px auto;
+}
+
+#certs > hr {
+    border: none;
+    height: 3px;
+    background-color: gray;
+    border-radius: 3px;
+}
+
+#connect{
     display: block;
     margin: 0 auto;
-    padding: 10px;
-    border: #FFCC66 solid 3px;
-    border-radius: 80px;
-}
-#oci{
-    padding-top: 20px;
-    padding-left: 4.5%;
+    padding: 5%;
+    width: fit-content;
+    margin-top: 10px;
 }
 
-#mckinsey{
-    padding-left: 15%;
-}
-
-#anthropic{
-    padding-left: 7%;
+#connect > a > img:hover {
+    background-color: #FFE1C2;
+    filter: invert(100%); 
 }
 
 .icol{
