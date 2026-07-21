@@ -2,12 +2,17 @@ body{
     background-color: #001E3D;
     margin-left: 10%;
     margin-right: 10%;
-    font-family: "Dancing Script", cursive;
+    font-family: "AmaticSC-Bold", cursive;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     color: #ffffff;
+}
+
+@font-face {
+    font-family: 'AmaticSC-Bold';
+    src: url('fonts/AmaticSC-Bold.ttf') format('truetype');
 }
 
 #mylogo{
