@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    margin: 5%;
+    background-color: #ffe6a7;
+    color: #432818;
+}
+
+@font-face {
+    font-family: 'F1';
+    src: url('../fonts/Griffy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'F2';
+    src: url('../fonts/LobsterTwo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'F3';
+    src: url('../fonts/SourceSerif4.ttf') format('truetype');
+}
+    
+@font-face {
+    font-family: 'F4';
+    src: url('../fonts/YuyuShort.ttf') format('truetype');
+}
+
+#title{
+    font-family: 'F1', cursive;
+    text-shadow: 2px 2px 5px #99582a;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #99582a;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#quote{
+    font-family: 'F2', cursive;
+    text-shadow: 2px 2px 5px #99582a;
+}
+
+#intro{
+    font-family: 'F2', serif;
+    text-align: justify;
+    text-shadow: 2px 2px 5px #99582a;
+}
+
+h2{
+    font-family: 'F1', cursive;
+    text-shadow: 2px 2px 5px #99582a;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #99582a;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btn{
+    font-family: 'F3', serif;
+    text-shadow: 2px 1px 0px #432818;
+    background-color: #99582a;
+    color: #ffe6a7;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
