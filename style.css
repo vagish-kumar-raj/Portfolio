@@ -1,13 +1,27 @@
 body{
     background-color: #001E3D;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
     font-family: "Georgia", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color: #ffffff;
+    display: flex;
+}
+
+#left{
+    width: 30%;
+    padding: 1%;
+    text-align: justify;
+    position: fixed;
+}
+
+#right{
+    width: 60%;
+    padding: 1%;
+    margin-left: 30%;
 }
 
 
@@ -43,19 +57,17 @@ h2{
     border-radius: 10px;
 }
 
-p{
-    color: #ffffff;
-}
-
 a:hover {
-    color: red;
+    color: #FFCC66;
+    text-shadow: 0 0 10px #FFCC66, 0 0 20px #FFCC66, 0 0 30px #FFCC66, 0 0 40px #FFCC66;
   }
 
 a{
     color: #FFCC66;
+    text-decoration: none;
 }
 
-#cont{
+#snake{
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -65,24 +77,6 @@ a{
     border: #FFCC66 solid 3px;
 }
 
-#certs{
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.cert{
-    width: 100%;
-    margin: 10px auto;
-}
-
-#certs > hr {
-    border: none;
-    height: 3px;
-    background-color: gray;
-    border-radius: 3px;
-}
 
 #connect{
     display: block;
@@ -97,26 +91,15 @@ a{
     filter: invert(100%); 
 }
 
-.icol{
-    padding: 5px;
+.ico{
+    padding: 3px;
     border: #000000 solid 3px;
     background-color: #ffffff;
     border-radius: 25%;
-    margin-right: 30px;
-}
-.icor{
-    padding: 5px;
-    border: #000000 solid 3px;
-    background-color: #ffffff;
-    border-radius: 25%;
-    margin-left: 30px;
+    text-decoration: none;
+    margin: 0 1px;
 }
 
-.ico{
-    padding: 5px;
-    border: #000000 solid 3px;
-    background-color: #ffffff;
-    border-radius: 25%;
-    margin-left: 30px;
-    margin-right: 30px;
+.a{
+    text-decoration: none;
 }
