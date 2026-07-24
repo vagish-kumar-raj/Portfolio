@@ -1,27 +1,26 @@
 body{
     background-color: #001E3D;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-family: "Georgia", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
-    display: flex;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4rem;
+    padding:2rem;
 }
 
-#left{
-    width: 30%;
-    padding: 1%;
-    text-align: justify;
-    position: fixed;
+.A{
+    flex: 1 1 33.33%;
 }
 
-#right{
-    width: 60%;
-    padding: 1%;
-    margin-left: 30%;
+.B{
+    flex: 1 1 66.67%;
 }
 
 
@@ -67,16 +66,6 @@ a{
     text-decoration: none;
 }
 
-#snake{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    background-color: #000000;
-    border-radius: 20px;
-    margin-top: 10px;
-    border: #FFCC66 solid 3px;
-}
-
 
 #connect{
     display: block;
@@ -102,4 +91,18 @@ a{
 
 .a{
     text-decoration: none;
+}
+
+@media (min-width: 768px){
+
+    body{
+        flex-direction:row;
+        justify-content:center;
+        align-items:flex-start;
+        gap:6rem;
+    }
+
+    .A, .B{
+        width:auto;
+    }
 }
