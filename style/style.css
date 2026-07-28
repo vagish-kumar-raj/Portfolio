@@ -73,7 +73,7 @@ h2{
     padding: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
     #main {
         flex-direction: column;
     }
@@ -164,17 +164,7 @@ hr{
     display: inline-block;
     width: 200px;
     border: none;
-}
-
-.pbtn > a{
-    color: #001E3D;
     font-weight: 700;
-}
-
-.pbtn > a:hover{
-    color: #001E3D;
-    font-weight: 700;
-    text-shadow: 0px 0px 0px #001E3D;
 }
 
 .pbtn:hover{
