@@ -108,6 +108,11 @@ a{
     color: #FFCC66
 }
 
+a:hover{
+    color: #00FF00;
+    text-shadow: 0px 0px 5px #00FF00;
+}
+
 p{
     color: #BBBBCC;
 }
@@ -144,4 +149,8 @@ hr{
     border: 1px solid #CCCCCC;
     border-radius: 5px;
     margin: 20px 0;
+}
+
+#launches-badge{
+    margin-top: 20px;
 }
