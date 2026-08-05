@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ===========================
+   Global Base Styles
+   Shared across all pages
+   =========================== */
+
+body {
+    background: #001E3D;
+    margin: 20px auto;
+    font-family: "Chivo", sans-serif;
+    color: #ffffff;
+    margin-top: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* --- Typography --- */
+
+#title {
+    color: #00ff00;
+    text-shadow:
+        1px 1px 0px #000000,
+        -1px 1px 0px #000000,
+        1px -1px 0px #000000,
+        -1px -1px 0px #000000;
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+}
+
+h2 {
+    color: #FFCC66;
+    text-shadow:
+        1px 1px 0px #000000,
+        -1px 1px 0px #000000,
+        1px -1px 0px #000000,
+        -1px -1px 0px #000000;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+}
+
+p {
+    color: #BBBBCC;
+}
+
+/* --- Links --- */
+
+a {
+    text-decoration: none;
+    color: #FFCC66;
+}
+
+a:hover {
+    color: #00FF00;
+    text-shadow: 0px 0px 5px #00FF00;
+}
+
+/* --- Layout --- */
+
+#main {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#left {
+    flex: 0 0 300px;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    text-align: center;
+}
+
+#right {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+@media (max-width: 765px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #left {
+        margin-top: 20px;
+        position: relative;
+        top: auto;
+        max-width: 100%;
+    }
+
+    #right {
+        max-width: 100%;
+    }
+}
+
+/* --- Horizontal Rule --- */
+
+hr {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* --- Social Icons --- */
+
+.ico {
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+.ico:hover {
+    background: #ffe1c2;
+    filter: invert(100%);
+    transition: 0.3s;
+}
