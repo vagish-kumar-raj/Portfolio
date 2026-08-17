@@ -42,6 +42,7 @@ main {
     margin-top: 20px;
     position: relative;
     top: auto;
+    width: 100%;
     max-width: 100%;
   }
 
@@ -104,6 +105,10 @@ h2 {
 
 /* * Text */
 
+article {
+  margin-bottom: 30px;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -134,6 +139,7 @@ a:hover {
 
 /* * Horizontal Ruler */
 hr {
-  color: #0fff0f;
-  margin: 10px;
+  border:2px solid #0fff0f;
+  margin: 20px auto;
+  width: 100%;
 }
