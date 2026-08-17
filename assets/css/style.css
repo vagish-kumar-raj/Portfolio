@@ -104,19 +104,19 @@ h2 {
 
 /* * Text */
 
-a{
+a {
   text-decoration: none;
   color: #ffffff;
 }
 
-a:hover{
+a:hover {
   color: #0fff0f;
 }
 
 /* * Project */
 
-.pbtn{
-  background-color: #FFCC66;
+.pbtn {
+  background-color: #ffcc66;
   border-radius: 10px;
   box-shadow: 0px 5px 0px #b07600;
   padding: 10px 20px;
@@ -125,10 +125,15 @@ a:hover{
   width: 150px;
   border: none;
   font-weight: 700;
-
 }
 
-.pbtn:hover{
+.pbtn:hover {
   transform: translateY(3px);
   box-shadow: 0px 2px 0px #b07600;
+}
+
+/* * Horizontal Ruler */
+hr {
+  color: #0fff0f;
+  margin: 10px;
 }
