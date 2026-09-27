@@ -1,23 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+.original-surfer-regular {
+  font-family: 'Original Surfer', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* ! Global */
 
 body {
   background: #001e3d;
   margin: 0px 5%;
-  font-family: "Chivo", sans-serif;
+  font-family: 'Original Surfer', sans-serif;
   color: #cccccc;
 }
 
 h1 {
   color: #00ff00;
   font-size: 40px;
-  text-shadow: 1px 1px 3px #FFCC66;
+  text-shadow: 1px 1px 0px #ffcc66;
 }
 
-.pbtn{
+.pbtn {
   width: 200px;
-  background-color: #FFCC66;
+  background-color: #ffcc66;
   border-radius: 10px;
   box-shadow: 0px 5px 0px #b07600;
   padding: 10px 20px;
@@ -25,10 +31,10 @@ h1 {
   display: inline-block;
   border: none;
   font-weight: 700;
-
+  font-family: inherit;
 }
 
-.pbtn:hover{
+.pbtn:hover {
   transform: translateY(3px);
   box-shadow: 0px 2px 0px #b07600;
 }

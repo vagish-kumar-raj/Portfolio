@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ! Global */
 
@@ -6,7 +6,7 @@ body {
   background: #001e3d;
   margin: 0px 5%;
   text-align: justify;
-  font-family: "Chivo", sans-serif;
+  font-family: 'Chivo', sans-serif;
   color: #cccccc;
   display: flex;
   align-items: flex-start;
@@ -85,10 +85,6 @@ h2 {
   filter: invert(100%);
 }
 
-.a {
-  text-decoration: none;
-}
-
 #launches-badge {
   margin-top: 10px;
 }
@@ -139,7 +135,7 @@ a:hover {
 
 /* * Horizontal Ruler */
 hr {
-  border:2px solid #0fff0f;
+  border: 2px solid #0fff0f;
   margin: 20px auto;
   width: 100%;
 }
