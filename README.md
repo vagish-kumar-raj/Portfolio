@@ -26,26 +26,6 @@
 
 ---
 
-## 🚀 Getting Started
-
-To view this project locally, simply clone the repository and open `index.html` in your browser. No build steps required!
-
-```bash
-# Clone the repository
-git clone https://github.com/vagish-kumar-raj/Portfolio.git
-
-# Navigate to the project directory
-cd Portfolio
-
-# Open in your default browser (macOS)
-open index.html
-
-# Open in your default browser (Windows)
-start index.html
-```
-
----
-
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
