@@ -17,11 +17,12 @@ body {
 
 h1 {
   color: #4fa62f;
-  font-size: 40px;
   text-shadow:
-    1px 1px 1px #000000,
-    2px 2px 1px #ffcc66;
-  letter-spacing: 2px;
+    -1px 0px 0px #ffffff,
+    -2px 0px 0px #ffcc66;
+  font-size: 50px;
+  font-weight: 500;
+  display: block;
 }
 
 .pbtn {

@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  font-size: 20px;
 }
 
 /* * Column - Left & Right */
@@ -24,7 +25,6 @@ body {
 header {
   flex: 0 0 300px;
   max-width: 250px;
-  margin: 10px 0;
   padding: 10px;
   position: sticky;
   top: 20px;
@@ -35,7 +35,6 @@ header {
 main {
   flex: 1 1 0;
   min-width: 0;
-  margin: 10px 0;
   padding: 10px;
 }
 
@@ -64,7 +63,7 @@ h1 {
   text-shadow:
     -1px 0px 0px #ffffff,
     -2px 0px 0px #ffcc66;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   display: block;
 }
@@ -144,5 +143,5 @@ a:hover {
 /* * Horizontal Ruler */
 hr {
   border: none;
-  border-top: 1px solid #003264;
+  border-top: 2px solid #003162;
 }
