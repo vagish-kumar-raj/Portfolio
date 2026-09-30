@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park&display=swap');
 
-.original-surfer-regular {
-  font-family: 'Original Surfer', sans-serif;
+.kulim-park-regular {
+  font-family: 'Kulim Park', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -11,14 +11,17 @@
 body {
   background: #001e3d;
   margin: 0px 5%;
-  font-family: 'Original Surfer', sans-serif;
+  font-family: 'Kulim Park', sans-serif;
   color: #cccccc;
 }
 
 h1 {
-  color: #00ff00;
+  color: #4fa62f;
   font-size: 40px;
-  text-shadow: 1px 1px 0px #ffcc66;
+  text-shadow:
+    1px 1px 1px #000000,
+    2px 2px 1px #ffcc66;
+  letter-spacing: 2px;
 }
 
 .pbtn {
