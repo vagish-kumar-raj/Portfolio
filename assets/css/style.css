@@ -121,8 +121,8 @@ a {
 a:hover {
   color: #4fa62f;
   text-shadow:
-    -1px 0px 0px #ffffff,
-    -2px 0px 0px #ffcc66;
+    0px 0px 2px #000000,
+    0px 0px 3px #ffcc66;
   font-weight: 100;
 }
 
