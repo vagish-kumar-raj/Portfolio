@@ -108,6 +108,11 @@
     </main>
     
     <!-- Vercel Web Analytics -->
-    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+    <script>
+      window.va = window.va || function () { 
+        (window.vaq = window.vaq || []).push(arguments); 
+      };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
   </body>
 </html>
