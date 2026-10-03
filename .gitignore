@@ -12,8 +12,6 @@ out/
 # Cache directories
 .cache/
 .parcel-cache/
-.vercel/
-
 # Environment variables
 .env
 .env.local
