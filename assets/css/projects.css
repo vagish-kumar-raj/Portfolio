@@ -39,6 +39,11 @@ h1 {
 }
 
 .pbtn:hover {
-  transform: translateY(3px);
-  box-shadow: 0px 2px 0px #b07600;
+  transform: translateY(2px);
+  box-shadow: 0px 3px 0px #b07600;
+}
+
+.pbtn:active {
+  transform: translateY(4px);
+  box-shadow: 0px 1px 0px #b07600;
 }
